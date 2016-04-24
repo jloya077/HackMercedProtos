@@ -1,0 +1,41 @@
+<html>
+<head>
+<style>
+    body{
+        background-color:firebrick;
+        outline: 40px;
+        outline-color: darkorange;
+    }
+    .black-text{
+	color: black;
+}
+h1
+{
+	font-family:fantasy;
+    color:blue;
+    text-align:center;
+    
+}
+.smaller-image
+{
+	width:300px;
+    margin: 0px auto;
+    display: block;
+}
+h2
+{
+	font-size:16px;
+	font-family: Droid Sans;
+	
+</style>
+<title> Cattracks </title>
+<h1>UC Merced Cattracks WebApp </h1>
+<img class="smaller-image" src = "http://communications.ucmerced.edu/sites/communications.ucmerced.edu/files/page/images/mascot-primary-ucm-lg.png">
+<h2> Search for times </h2>
+
+<iframe src="http://docs.google.com/gview?url=http://cattracks.ucmerced.edu/sites/cattracks.ucmerced.edu/files/documents/e1_spring_2016.pdf&embedded=true" style="width:600px; height:400px;" frameborder="0"></iframe>
+<h2> The E1 Bus Route runs Saturday and Sunday, from 11:00AM to 11:17PM </h2>
+<iframe src="http://docs.google.com/gview?url=http://cattracks.ucmerced.edu/sites/cattracks.ucmerced.edu/files/documents/e2_spring_2016_final.pdf&embedded=true" style="width:600px; height:400px;" frameborder="0"></iframe>
+<h2> Please enter "weekday" for weekday bus routes, and "weekend" for weekend bus routes 
+<form action ="/submit-response"><input type = "text" placeholder = "Please enter here"><button type = "submit">Submit</button><label><input type="radio" name = "weekday-weekend">Weekday</label><label><input type = "radio" name = "weekday-weekend">Weekend</label></form> </h2>
+
